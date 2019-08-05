@@ -32,3 +32,11 @@ optional arguments:
 output_file doit être dans /etc/avahi/services/, par exemple /etc/avahi/services/fbx.service.
 
 Testé sous Linux (Debian 9 et 10), fonctionne peut-être sous MAC.
+
+Exemple de fichier /etc/cron.daily/fbxapitoavahi :
+
+```
+#!/bin/bash
+
+/opt/fbxapitoavahi/apitoavahi.py /etc/avahi/services/fbx.service
+```
