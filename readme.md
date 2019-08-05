@@ -7,7 +7,7 @@ Après avoir testé avec succès la création manuelle d’un fichier de service
 ### Utilisation
 
 ```
-/opt/apitoavahi/apitoavahi.py -h
+/opt/fbxapitoavahi/apitoavahi.py -h
 usage: apitoavahi.py [-h] [--debug | --silent] output_file
 
 Générateur de service AVAHI pour Freebox en mode bridge
