@@ -26,3 +26,9 @@ optional arguments:
   --debug, -d   enable debugging (default: False)
   --silent, -s  don't log to console (default: False)
 ```
+
+À utiliser sur n’importe quelle machine Unix allumée (presque) en permanence (NAS, Routeur, Raspberry Pi…), tout le monde n’en a pas, mais pour mettre une freebox en bridge… Lancer régulièrement (une fois par jour via cron par exemple).
+
+output_file doit être dans /etc/avahi/services/, par exemple /etc/avahi/services/fbx.service.
+
+Testé sous Linux (Debian 9 et 10), fonctionne peut-être sous MAC.
